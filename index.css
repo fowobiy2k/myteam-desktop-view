@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+
+section {
+  padding: 3em 15%;
+}
+
+.top {
+  background-color: #1c5263;
+  color: white;
+}
+
+.top h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.top a {
+  color: white;
+  text-decoration: none;
+}
+
+.top nav {
+  display: flex;
+  align-items: center;
+}
+
+.top ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.top ul li {
+  display: inline;
+  margin: 0 2em;
+}
+
+.top .header {
+  display: flex;
+  align-content: center;
+  font-size: small;
+}
+
+.top .header .contact-link {
+  margin-left: auto;
+  border: 1px solid white;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-end;
+  margin: 8% 0;
+}
+
+.hero h1 {
+  font-size: 4em;
+  flex: 2;
+  margin: 0;
+  /* padding-right: 3em; */
+}
+
+.hero p {
+  flex: 1;
+  font-size: small;
+  /* margin-top: 8em; */
+}
+
+.line2 {
+  display: block;
+}
+
+.talent {
+  color: #ff3363;
+}
+
+.mid-section {
+  background-color: #11323c;
+  display: flex;
+  color: white;
+}
+
+.mid-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mid-section div {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mid-section .description {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.description img {
+  width: 2em;
+  height: 2em;
+  margin-right: 1.5em;
+}
+
+/* .details {
+    padding-left: 3em;
+} */
+
+.details h5 {
+  margin: 0;
+  color: #ff3363;
+}
+
+section.team {
+  padding-bottom: 12em;
+}
+
+.team {
+  background-color: #164250;
+  color: white;
+  text-align: center;
+}
+
+.team h2 {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.phrase1 {
+  display: block;
+}
+
+.end-phrase {
+  color: #2d849f;
+}
+
+.testimonies {
+  display: flex;
+}
+
+.testimony {
+  margin: 0 1em;
+}
+
+.testimony .quote {
+  font-size: small;
+  margin-bottom: 1em;
+}
+
+.testimony h5 {
+  margin: 0;
+  color: #2d849f;
+}
+
+.testimony p {
+  font-size: smaller;
+  margin: 0;
+  font-style: italic;
+}
+
+.testimony img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  margin-top: 1em;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff3363;
+  color: #11323c;
+}
+
+.question a {
+  border: 1px solid #11323c;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #11323c;
+}
+
+footer {
+  background-color: #0b2128;
+  display: flex;
+  padding: 3em 15%;
+}
+
+footer .header {
+  color: white;
+  /* flex: 1; */
+}
+
+footer h3 {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer li {
+  margin: 0;
+  display: inline;
+  font-size: smaller;
+  margin-right: 1em;
+}
+
+address {
+  color: #2d849f;
+  margin-left: 3em;
+}
+
+address span {
+  display: block;
+}
+
+.right {
+  color: #2d849f;
+  margin-left: auto;
+}
+
+.icons {
+  color: white;
+  /* background-color: red; */
+}
